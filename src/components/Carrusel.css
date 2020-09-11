@@ -1,0 +1,18 @@
+.backCarrusel{
+    background-color: rgba(0, 0, 0, 0.904);
+
+}
+.Carrusel_estilo{
+    /* min-height: 100vh; */
+    max-height: 600px;
+ 
+}
+
+.tituloCarrusel{
+    font-size: 2.8vw;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+.parrafoCarrusel{
+    font-size: 1.3vw;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
