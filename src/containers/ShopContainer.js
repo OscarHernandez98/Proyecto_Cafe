@@ -35,7 +35,7 @@ const ShopContainer = () => {
 
           {/* cafe1 */}
           <Card>
-            <Card.Img variant="top" src={cafe1} />
+            <Card.Img variant="top" src={cafe1}  style={{ width:'400px', height:'250px' }}/>
             <Card.Body>
               <Card.Title>Cafe Chiapaneco</Card.Title>
               <Card.Text>
@@ -49,7 +49,7 @@ const ShopContainer = () => {
 
          {/* cafe2 */}
           <Card>
-            <Card.Img variant="top" src={cafe2} />
+            <Card.Img variant="top" src={cafe2} style={{ width:'400px', height:'350px' }} />
             <Card.Body>
               <Card.Title>Cafe Puro 100% Arabica</Card.Title>
               <Card.Text>
@@ -63,7 +63,7 @@ const ShopContainer = () => {
 
         {/* cafe3 */}
           <Card>
-            <Card.Img variant="top" src={cafe3} />
+            <Card.Img variant="top" src={cafe3} style={{ width:'400px', height:'350px' }} />
             <Card.Body>
               <Card.Title>Cafe de Costa Rica</Card.Title>
               <Card.Text>
@@ -81,7 +81,7 @@ const ShopContainer = () => {
         {/* cafetera1 */}
         <CardDeck>
           <Card>
-            <Card.Img variant="top" src={cafetera1} />
+            <Card.Img variant="top" src={cafetera1} style={{ width:'454px', height:'400px' }} />
             <Card.Body>
               <Card.Title>Cafetera Italiana</Card.Title>
               <Card.Text>
@@ -109,7 +109,7 @@ const ShopContainer = () => {
 
           {/* cafetera3 */}
           <Card>
-            <Card.Img variant="top" src={cafetera3} />
+            <Card.Img variant="top" src={cafetera3} style={{ width:'400px', height:'450px' }} />
             <Card.Body>
               <Card.Title>Cafetera Krups</Card.Title>
               <Card.Text>
@@ -127,7 +127,7 @@ const ShopContainer = () => {
         {/* accesorios1 */}
         <CardDeck>
           <Card>
-            <Card.Img variant="top" src={accesorio1} />
+            <Card.Img variant="top" src={accesorio1} style={{ width:'350px', height:'380px' }}  />
             <Card.Body>
               <Card.Title>Jarra de espuma</Card.Title>
               <Card.Text>
@@ -155,7 +155,7 @@ const ShopContainer = () => {
 
           {/* accesorios3 */}
           <Card>
-            <Card.Img variant="top" src={accesorio3} />
+            <Card.Img variant="top" src={accesorio3} style={{ width:'455px', height:'380px' }}  />
             <Card.Body>
               <Card.Title>Juego de tazas para cafe</Card.Title>
               <Card.Text>
